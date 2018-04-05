@@ -1,0 +1,337 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>JavaScript Quiz</title>
+
+    <!-- these are all of the links to external style sheets and javascrip files that
+            are used on this page -->
+
+    <link href="../Styles/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/MainStyle.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/QuizStyle.css" rel="stylesheet" type="text/css" />
+    <script src="../Quiz.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<div id="baner"> <h1>JavaScript</h1> </div>
+
+<div id="menu">
+<div id="nav1">
+ <!-- this is the code for the navigation bar it uses bootstrap to style it -->
+<ul class="nav nav-tabs" role="tablist">
+        <li ><a href="Homepage.htm">Home</a></li>
+        <li class="active"><a href="Quiz.htm">JavaScript Quiz</a></li>
+        <li><a href="Errors.htm">Common Errors</a></li>
+        <li ><a href="JavaScriptFAQ.htm">FAQ/Help</a></li>
+        <li><a href="Contact.htm">Contact us</a></li>
+      </ul>
+    </div>
+</div>
+
+
+
+<br />
+
+<div id="content">
+
+ <!-- this is the main content of the page that has all of the question
+      it uses radio buttons as a multiple choice quiz, there are also two images
+      that depond on if the question is correct or wrong one or the other will appear
+  -->
+
+<h2 id="title">Quiz Time</h2>
+
+<h2 id="scoreDis">Your Score is 0/10 </h2>
+    <br/>
+
+
+
+
+
+<p>1. Inside which HTML element do we put the JavaScript?</p>
+
+  <div class="Answers">
+    <span class="anwser-outer">
+      <input type='radio' name='Q1' id='Q1a' />
+      <label class="label_options" for="Q1a"> &lt;javascript&gt;</label>
+    </span>
+    <span class="anwser-outer">
+      <input type='radio' name='Q1' id='Q1b' />
+      <label class="label_options" for="Q1b">&lt;js&gt; </label>
+    </span>
+    <span class="anwser-outer">
+      <input type='radio' name='Q1' id='Q1c' />
+      <label class="label_options" for="Q1c">&lt;script&gt;</label>
+    </span>
+    <span class="anwser-outer">
+      <input type='radio' name='Q1' id='Q1d' />
+      <label class="label_options" for="Q1d">&lt;scripting&gt;</label>
+    </span>
+  </div>
+
+<div class = "wrong" id = "Q1Wrong">
+<img  class = "AnswerImg"src="../Img/Wrong.png" /> Wrong
+</div>
+<div class = "correct" id = "Q1Correct">
+<img class = "AnswerImg"src="../Img/Correct.png"  /> Correct
+</div>
+
+<br/><br/>
+
+
+<p>2. What is the correct syntax for referring to an external script called "MyJs.js" </p>
+<div class="Answers">
+  <span class="anwser-outer">
+    <input type='radio' name='Q2' id='Q2a' />
+    <label class="label_options" for="Q2a">&lt;script href="MyJs.js" &gt; </label>
+</span>
+  <span class="anwser-outer">
+    <input type='radio' name='Q2' id='Q2b' />
+    <label class="label_options" for="Q2b">&lt;script src="MyJs.js"&gt;</label>
+</span>
+  <span class="anwser-outer">
+    <input type='radio' name='Q2' id='Q2c' />
+    <label class="label_options" for="Q2c">&lt;script name="MyJs.js"&gt;</label>
+</span>
+  <span class="anwser-outer">
+    <input type='radio' name='Q2' id='Q2d' />
+    <label class="label_options" for="Q2d">&lt;script="MyJs.js"&gt;</label>
+</span>
+
+</div>
+<div class = "wrong" id = "Q2Wrong">
+<img  class = "AnswerImg"src="../Img/Wrong.png" /> Wrong
+</div>
+<div class = "correct" id = "Q2Correct">
+<img class = "AnswerImg"src="../Img/Correct.png"  /> Correct
+</div>
+
+<br/><br/>
+
+<p>3. How do you write "Hello World" in an alert box? </p>
+<div class="Answers">
+<span class="anwser-outer">
+  <input type="radio" name='Q3'id='Q3a' />
+  <label class="label_options" for="Q3a"> msgBox("Hello World");</label>
+</span>
+<span class="anwser-outer">
+  <input type="radio" name='Q3'id='Q3b' />
+  <label class="label_options" for="Q3c"> msg("Hello World");</label>
+</span>
+<span class="anwser-outer">
+  <input type="radio" name='Q3'id='Q3c' />
+  <label class="label_options" for="Q3c"> alertBox("Hello World");</label>
+</span>
+<span class="anwser-outer">
+  <input type="radio" name='Q3'id='Q3d' />
+  <label class="label_options" for="Q3d"> alert("Hello World");</label>
+</span>
+ </div>
+ <div class = "wrong" id = "Q3Wrong">
+<img  class = "AnswerImg"src="../Img/Wrong.png" /> Wrong
+</div>
+<div class = "correct" id = "Q3Correct">
+<img class = "AnswerImg"src="../Img/Correct.png"  /> Correct
+</div>
+
+<br/><br/>
+
+<p>4. What is the correct JavaScript syntax to insert a comment that has more than one line?</p>
+<div class="Answers">
+<span class="anwser-outer">
+  <input type='radio' name='Q4' id='Q4a' />
+  <label class="label_options" for="Q4a">&lt;!--This comment that has more than one line--&gt;</label>
+</span>
+<span class="anwser-outer">
+   <input type='radio' name='Q4' id='Q4b' />
+    <label class="label_options" for="Q4b">  //This comment that has more than one line//</label>
+</span>
+<span class="anwser-outer">
+  <input type='radio' name='Q4' id='Q4c' />
+  <label class="label_options" for="Q4c">/*This comment that has more than one line*/ </label>
+</span>
+<span class="anwser-outer">
+  <input type='radio' name='Q4' id='Q4d' />
+  <label class="label_options" for="Q4d">#This comment that has more than one line </label>
+</span>
+ </div>
+ <div class = "wrong" id = "Q4Wrong">
+<img  class = "AnswerImg"src="../Img/Wrong.png" /> Wrong
+</div>
+<div class = "correct" id = "Q4Correct">
+<img class = "AnswerImg"src="../Img/Correct.png"  /> Correct
+</div>
+
+<br/><br/>
+
+
+<p>5. Is javaScript case sensitive ?</p>
+<div class="Answers">
+<span class="anwser-outer">
+  <input type='radio' name='Q5' id='Q5a' />
+  <label class="label_options" for="Q5a">Yes</label>
+</span>
+<span class="anwser-outer">
+  <input type='radio' name='Q5' id='Q5b' />
+  <label class="label_options" for="Q5b">No </label>
+</span>
+ </div>
+ <div class = "wrong" id = "Q5Wrong">
+<img  class = "AnswerImg"src="../Img/Wrong.png" /> Wrong
+</div>
+<div class = "correct" id = "Q5Correct">
+<img class = "AnswerImg"src="../Img/Correct.png"  /> Correct
+</div>
+<br /><br />
+
+
+
+<p>6. Who invented the javascript programming language? </p>
+<div class="Answers">
+<span class="anwser-outer">
+  <input type="radio" name='Q6'id='Q6a' />
+  <label class="label_options" for="Q6a"> Tennis Ritchie </label>
+</span>
+<span class="anwser-outer">
+  <input type="radio" name='Q6'id='Q6b' />
+  <label class="label_options" for="Q6b"> James Gosling</label>
+</span>
+<span class="anwser-outer">
+  <input type="radio" name='Q6'id='Q6c' />
+  <label class="label_options" for="Q6c"> Brendan Eich</label>
+</span>
+<span class="anwser-outer">
+  <input type="radio" name='Q6'id='Q6d' />
+  <label class="label_options" for="Q6d">Fred Smith</label>
+</span>
+
+ </div>
+ <div class = "wrong" id = "Q6Wrong">
+<img  class = "AnswerImg"src="../Img/Wrong.png" /> Wrong
+</div>
+<div class = "correct" id = "Q6Correct">
+<img class = "AnswerImg"src="../Img/Correct.png"  /> Correct
+</div>
+
+<br/><br/>
+
+
+<p>7.What is the output? </br>&lt;script type="text/javascript"&gt;
+               x = 4 + "4";
+               document.write(x);
+&lt;/script&gt;
+
+</p>
+<div class="Answers">
+<span class="anwser-outer">
+  <input type="radio" name='Q7'id='Q7a' />
+  <label class="label_options" for="Q7a"> 44</label>
+</span>
+<span class="anwser-outer">
+  <input type="radio" name='Q7'id='Q7b' />
+  <label class="label_options" for="Q7b">8</label>
+</span>
+<span class="anwser-outer">
+  <input type="radio" name='Q7'id='Q7c' />
+  <label class="label_options" for="Q7c">4</label>
+</span>
+<span class="anwser-outer">
+  <input type="radio" name='Q7'id='Q7d' />
+  <label class="label_options" for="Q7d">Error</label>
+</span>
+ </div>
+ <div class = "wrong" id = "Q7Wrong">
+<img  class = "AnswerImg"src="../Img/Wrong.png" /> Wrong
+</div>
+<div class = "correct" id = "Q7Correct">
+<img class = "AnswerImg"src="../Img/Correct.png"  /> Correct
+</div>
+<br/><br/>
+
+
+<p>8. Are java and javascript the same?</p>
+<div class="Answers">
+<span class="anwser-outer">
+  <input type="radio" name='Q8'id='Q8a' />
+  <label class="label_options" for="Q8a">Yes</label>
+</span>
+<span class="anwser-outer">
+  <input type="radio" name='Q8'id='Q8b' />
+  <label class="label_options" for="Q8b">No</label>
+</span>
+
+ </div>
+ <div class = "wrong" id = "Q8Wrong">
+<img  class = "AnswerImg"src="../Img/Wrong.png" /> Wrong
+</div>
+<div class = "correct" id = "Q8Correct">
+<img class = "AnswerImg"src="../Img/Correct.png"  /> Correct
+</div>
+
+<br/><br/>
+
+<p>9. JavaScript is designed for which purpose? </p>
+<div class="Answers">
+<span class="anwser-outer">
+  <input type="radio" name='Q9'id='Q9a' />
+  <label class="label_options" for="Q9a">To style HTML Pages</label>
+</span>
+<span class="anwser-outer">
+  <input type="radio" name='Q9'id='Q9b' />
+  <label class="label_options" for="Q9b">To add interactivity to HTML Pages</label>
+</span>
+<span class="anwser-outer">
+  <input type="radio" name='Q9'id='Q9c' />
+  <label class="label_options" for="Q9c">To perform server side scripting </label>
+</span>
+<span class="anwser-outer">
+  <input type="radio" name='Q9'id='Q9d' />
+  <label class="label_options" for="Q9d">To execute query related to DB on server</label>
+</span>
+ </div>
+ <div class = "wrong" id = "Q9Wrong">
+<img  class = "AnswerImg"src="../Img/Wrong.png" /> Wrong
+</div>
+<div class = "correct" id = "Q9Correct">
+<img class = "AnswerImg"src="../Img/Correct.png"  /> Correct
+</div>
+
+<br/><br/>
+
+
+  <div class="Answers Question">
+<div id="P10P1">10.&nbsp </div> <div id="dropzone" ondrop = "drop(event)"  ondragover ="allowDrop(event)"></div> <div id="P10">&nbsp  keyword is used to declare variables in javascript.
+Click and Drag correct answer into the box</div>
+</div>
+<div class="Answers">
+
+    <img class="Q10IMG" id = "Q10Dim" draggable="true" ondragstart="drag(event)" src="../Img/Q10Dim.png" />
+    <img class="Q10IMG" id = "Q10String" draggable="true" ondragstart="drag(event)" src="../Img/Q10String.png" />
+    <img class="Q10IMG" id = "Q10Var" draggable="true" ondragstart="drag(event)" src="../Img/Q10Var.png" />
+ </div>
+ <div class = "wrong" id = "Q10Wrong">
+<img  class = "AnswerImg"src="../Img/Wrong.png" /> Wrong
+</div>
+
+<div class = "correct" id = "Q10Correct">
+<img class = "AnswerImg"src="../Img/Correct.png"  /> Correct
+</div>
+
+
+
+
+
+<div id="buttonCheck"><p id="check" onclick='scoreQuiz()'>Check Quiz</p></div>
+  </div>
+
+
+
+<br /><br />
+
+<div id="footer">© 2015 Grzegorz Lindert</div>
+
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+
+/*this is the external style sheet that is used only to style the FAQ page */
+
+
+
+
+.Answer
+{display: none;margin:5px;padding:5px;width:800px;text-align:  center;}
+
+.Close {cursor:pointer;
+color:Red;
+}
+.Close:hover {color:white;
+}
+img {display: block;
+margin-left:auto;
+margin-right:auto;
+}
+
+
+.Container
+{margin-left:20px;margin-bottom:10px;text-align:  center;}
+
+
+/* unvisited link */
+a.FAQAnchor:link {color: #000000;
+}
+
+/* visited link */
+a.FAQAnchor:visited {color: white;
+}
+/* mouse over link */
+a.FAQAnchor:hover {color: white;
+
+}
+/* selected link */
+a.FAQAnchor:active {color: white;
+font-weight:bold;
+}
+
+a.FAQAnchor {text-decoration: none;
+font-size:20px;
+}

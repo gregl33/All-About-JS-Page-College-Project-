@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>FAQ</title>
+    <!-- these are all of the links to external style sheets and javascrip files that
+            are used on this page -->
+    <link href="../Styles/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/MainStyle.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/FAQ.css" rel="stylesheet" type="text/css" />
+    <script src="../FAQ.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="baner"> <h1>JavaScript</h1> </div>
+
+<div id="menu"><div id="nav1">
+<!-- this is the code for the navigation bar it uses bootstrap to style it -->
+<ul class="nav nav-tabs" role="tablist">
+        <li><a href="Homepage.htm">Home</a></li>
+        <li><a href="Quiz.htm">JavaScript Quiz</a></li>
+        <li><a href="Errors.htm">Common Errors</a></li>
+        <li class="active"><a href="JavaScriptFAQ.htm">FAQ/Help</a></li>     
+        <li><a href="Contact.htm">Contact us</a></li>  
+      </ul>
+    </div>
+</div>
+
+<br /><br />
+
+<div id="content"> 
+<!-- this is the main conntent of the page, it contains all of the FAQ questions and answers   -->
+<h2 id="title">Frequently asked questions</h2>
+<br /><br />
+<div class='Container'>
+    <a class= "FAQAnchor" href = "javascript:show(1)">1. Where does the JavaScript in a webpage come from?</a>
+    <div id="answer1" class="Answer">
+        <p>The JavaScript in a webpage comes from the server, like the rest of the webpage. 
+        It can also be found in the head section of a webpage in script tags or at the bottom 
+        of the page before the closing tags of body. This will mean that the JavaScript will 
+        load after everything else like graphics, styles etc., so it would run smother.  Also 
+        in an external document (myJavaDcript.js). You would put this line in the head section 
+        for the javascript to run from an external file.</p>
+        <img src="../Img/Q1Img.png" />
+
+        <p class = 'Close' onclick="hide(1)" style ='text-align:center'>Close</p>
+    </div>
+</div>
+
+<div class='Container'>
+    <a class= "FAQAnchor" href = "javascript:show(2)">2. Where and how does JavaScript typically run?</a>
+    <div id="answer2" class="Answer">
+        <p>JavaScript is running in the browser on the client side, it runs after the 
+        server has given the website, and as soon as the website is loaded and it will 
+        continue to run if the user keeps on using events like moving mouse, clicking or 
+        typing, as JavaScript is listening for these events. </br></br>
+        The way the JavaScript runs on a website is by built in JavaScript engines in the browser. 
+        The built in engines are also known as the built-in interpreter. Their job is to find the code, 
+        read it and execute it. Different browsers have different engines that read JavaScript, for example:
+        <ul>
+        <li>Google Chrome uses an engine called V8</li>
+        <li>Mozilla Firefox uses 3 engines these are Gecko layout engine, SpiderMonkey, and Rhino</li>
+        <li>Safari uses an engine called Nitro </li>
+        </ul>
+ </p>
+        <p  class = 'Close' onclick="hide(2)" style ='text-align:center'>Close</p>
+    </div>
+</div>
+
+<div class='Container'>
+    <a  class= "FAQAnchor"href = "javascript:show(3)">3. What are the different ways in which JavaScript code can be initiated in a web browser?</a>
+    <div id="answer3" class="Answer">
+        <p>There are many ways you can initiate JavaScript in a web browser, and they can be used on any element, some of these are:
+        
+            <img src="../Img/Q3.png" />
+        </br>
+        After you have chosen the event that you want the JavaScript to be initiated you then need to put the name of the thing you 
+        want to initiate, most likely it would be a function. 
+        </p>
+        <p class = 'Close' onclick="hide(3)" style ='text-align:center'>Close</p>
+    </div>
+</div>
+
+<div class='Container'>
+    <a class= "FAQAnchor" href = "javascript:show(4)">4. Is JavaScript a procedural language? If so give an example.</a>
+    <div id="answer4" class="Answer">
+        <p>Yes as you can declare functions, and that what procedural programing is about making the most out of reusing code 
+        and making it easy to follow and reduce the number of code. In JavaScript you write the code in an organised way buy
+         writing it in blocks of code called functions. This way it is easy to maintain and reuse. 
+         This is an example of 2 function that are used in this page the first on is to open links and the second is to close links. 
+            <img src="../Img/Q4.png" />
+         </p>
+     
+        <p class = 'Close' onclick="hide(4)" style ='text-align:center'>Close</p>
+    </div>
+</div>
+
+<div class='Container'>
+    <a  class= "FAQAnchor" href = "javascript:show(5)">5. Is JavaScript an object oriented language? If so, give an example.</a>
+    <div id="answer5" class="Answer">
+        <p>JavaScript is an object oriented as you can create new object, like Arrays. The example below shows how to 
+        create new arrays and assign string to variables. When creating an array you create an instance of an object. 
+        When assigning a string to an variable to assign all of its property with the text, meaning that this is now an
+         object. 
+
+            <img src="../Img/Q5.png" />
+         </p>
+        <p class = 'Close' onclick="hide(5)" style ='text-align:center'>Close</p>
+    </div>
+</div>
+
+<div class='Container'>
+    <a class= "FAQAnchor" href = "javascript:show(6)">6. Is JavaScript an event-driven language? If so, give an example.</a>
+    <div id="answer6" class="Answer">
+        <p>JavaScript is an event-driven language as you have triggers that when triggered they 
+        initiate an JavaScript function.  Some of triggers are:
+        
+            <img src="../Img/Q3.png" />
+      
+         </br>
+         You can also use event listeners in JavaScript that will trigger an function. This way 
+         is better as you can have the same event for all of p tags. This would save memory as there would be less code. 
+         
+            <img src="../Img/Q6.png" />
+
+         </p>
+        <p class = 'Close' onclick="hide(6)" style ='text-align:center'>Close</p>
+    </div>
+</div>
+
+<div  class='Container'>
+   <a  class= "FAQAnchor" href = "javascript:show(7)">7. What sort of things can I do with JavaScript?</a>
+    <div id="answer7" class="Answer">
+        <p>With JavaScript there are many things you can do with it, for example you can:</p>
+        <ul>
+        <li>Make things interactive like links, images, paragraphs etc.</li>
+        <li>animate graphics, create animations this is an example of animation created by JavaScript and HTML 
+        <a href = "http://www.craftymind.com/factory/html5video/CanvasVideo.html" target="_blank"> Animation </a> </li>
+        <li>manipulate cookies </li>
+        <li>validating inputs if they are empty  </li>
+        <li>create a game  these are two example of games - 
+        <a href = "http://currantcat.com/convergence/ " target="_blank">The Convergence</a>
+        <a  href = "http://browserquest.mozilla.org/" target="_blank">BrowserQuest</a></li>
+        </ul>
+ 
+        <p class = 'Close' onclick="hide(7)" style ='text-align:center'>Close</p>
+    </div>
+</div>
+
+<div  class='Container'>
+    <a  class= "FAQAnchor" href = "javascript:show(8)">8. Show me some examples of cool JavaScript.</a>
+    <div id="answer8" class="Answer">
+        <p>  <a class= "FAQAnchor" href = "http://crimetimeline.io/" target="_blank">Crime timeline</a> - It is a project from developers 
+            at agency Cyber-Duck that uses public APIs to pull in data about crime in Britain and enables
+             the user to review their local area.</br>
+            <a class= "FAQAnchor" href = "http://browserquest.mozilla.org/" target="_blank">BrowserQuest</a> - BrowserQuest is an RPG video game created by Little Workshop for 
+            Mozilla, it uses HTML5 and technologies such as WebSockets, which can support hundreds or even thousands 
+            of simultaneous users interacting."The primary goal was to show the capabilities of HTML5, JavaScript and 
+            especially WebSockets," Guillaume Lecollinet of Little Workshop explained to .net.</br>
+            <a class= "FAQAnchor" href = "http://www.drawastickman.com/" target="_blank">Draw a Stickma</a> - Draw a Stickman is virtual drawing pad which you can use your mouse 
+            to create little doodles. It was created by Hitcents. Once the stickman is created it becomes animated 
+            and walks around until it finds a box, and opens it. </br>
+            <a class= "FAQAnchor" href = "http://www.amplifon.co.uk/interactive-ear/index.html" target="_blank">The Interactive Ear</a>  - The Interactive Ear was created by Leeds-based 
+            agency Epiphany Solutions for its client Amplifon, which specialises in hearing aids, tests and solutions 
+            for the hard of hearing, and is targeted at both primary and secondary school level education. The website 
+            showcases the three major parts of the ear's complex systems.
+            </p>
+        <p class = 'Close' onclick="hide(8)" style ='text-align:center'>Close</p>
+    </div>
+</div>
+
+<div  class='Container'>
+  <a  class= "FAQAnchor" href = "javascript:show(9)">9. Show me some examples of basic JavaScript syntax.</a>
+    <div id="answer9" class="Answer">
+        <p> This example shows a simple function and then used on the body when it runs, 
+        it shows how to declare variables and create if statements. When this web page is 
+        run a pop up box appears saying “Hello World” as the variable is equal to 1. 
+        
+            <img src="../Img/Q9Part1.png" />
+        
+        </br>
+
+        This example just shows how you would create a for loop, it needs 3 attributes in the 
+        brackets and then the code that will be repeated. 
+        
+            <img src="../Img/Q9Part2.png" />
+
+        </p>
+        <p class = 'Close' onclick="hide(9)" style ='text-align:center'>Close</p>
+    </div>
+</div>
+
+<div class='Container'>
+    <a  class= "FAQAnchor" href = "javascript:show(10)">10. Show me how JavaScript can be used to reference elements in an HTML document.</a>
+    <div id="answer10" class="Answer">
+        <p>The code shows how to get an element from HTML and change the text in it and the colour of it in JavaScript.
+         First of you need to create a paragraph tag for example and give it an id,
+          then you can reference to that id in JS by fetching it and storing it in a 
+          variable which then you can change the inner HTML and the colour and many more options. 
+            <img src="../Img/Q10.png" />
+        </p>
+        <p class = 'Close' onclick="hide(10)" style ='text-align:center'>Close</p>
+    </div>
+</div>
+</div>
+</br></br>
+<div id="footer">© 2015 Grzegorz Lindert</div>
+</body>
+</html>
